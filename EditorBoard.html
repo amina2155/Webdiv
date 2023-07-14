@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="EditorBoard.css">
+    <script src="https://kit.fontawesome.com/6238ddaa77.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="left">
+            <div class="tabs">
+                <button id="tab1"><i  class="fa-sharp fa-solid fa-code"></i></button>
+                <button id="tab2"><i  class="fa-brands fa-css3"></i></button>
+                <button id="tab3"><i  class="fa-brands fa-square-js"></i></button>
+            </div>
+
+            <div class="content-box">
+                <div id="content1">
+                    <div class="content-text">
+                        <label><i class="fa-sharp fa-solid fa-code"></i>HTML</label>
+                        <textarea name="HTML" id="html-code" onkeyup="run()"></textarea>
+                    </div>
+                </div>
+                <div id="content2">
+                    <div class="content-text">
+                        <label><i class="fa-brands fa-css3"></i>CSS</label>
+                        <textarea name="CSS" id="css-code" onkeyup="run()"></textarea>
+                    </div>
+                </div>
+                <div id="content3">
+                    <div class="content-text">
+                        <label><i  class="fa-brands fa-square-js"></i>JS</label>
+                        <textarea name="JS" id="js-code" onkeyup="run()"></textarea>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div class="right">
+            <iframe id="output">
+
+            </iframe>
+        </div>
+
+    </div>
+
+    <script>
+        var tab1 = document.getElementById("tab1");
+        var tab2 = document.getElementById("tab2");
+        var tab3 = document.getElementById("tab3");
+        var content1 = document.getElementById("content1");
+        var content2 = document.getElementById("content2");
+        var content3 = document.getElementById("content3");
+
+        tab1.onclick = function(){
+            content1.style.display = "block";
+            content2.style.display = "none";
+            content3.style.display = "none";
+
+            content1.style.transitionDelay = "0.3s";
+            content2.style.transitionDelay = "0";
+            content3.style.transitionDelay = "0";
+
+            tab1.style.background = "#FBEEFA";
+            tab2.style.background = "transparent";
+            tab3.style.background = "transparent";
+
+            tab1.style.color = "#F14C68";
+            tab2.style.color = "#fff";
+            tab3.style.color = "#fff";
+        }
+
+        tab2.onclick = function(){
+            content2.style.display = "block";
+            content1.style.display = "none";
+            content3.style.display = "none";
+
+            content2.style.transitionDelay = "0.3s";
+            content1.style.transitionDelay = "0";
+            content3.style.transitionDelay = "0";
+
+            tab2.style.background = "#FBEEFA";
+            tab1.style.background = "transparent";
+            tab3.style.background = "transparent";
+
+            tab2.style.color = "#F14C68";
+            tab1.style.color = "#fff";
+            tab3.style.color = "#fff";
+        }
+
+        tab3.onclick = function(){
+            content3.style.display = "block";
+            content2.style.display = "none";
+            content1.style.display = "none";
+
+            content3.style.transitionDelay = "0.3s";
+            content2.style.transitionDelay = "0";
+            content1.style.transitionDelay = "0";
+
+            tab3.style.background = "#FBEEFA";
+            tab2.style.background = "transparent";
+            tab1.style.background = "transparent";
+
+            tab3.style.color = "#F14C68";
+            tab2.style.color = "#fff";
+            tab1.style.color = "#fff";
+        }
+
+        function run()
+        {
+            let htmlCode = document.getElementById("html-code").value;
+            let cssCode = document.getElementById("css-code").value;
+            let jsCode = document.getElementById("js-code").value;
+            let outputCode = document.getElementById("output");
+
+            output.contentDocument.body.innerHTML  = htmlCode + "<style>" + cssCode + "</style>";
+            output.contentWindow.eval(jsCode);
+
+        }
+
+        runButton.addEventListener("click" , run);
+        
+        window.addEventListener("load", run);
+
+
+    </script>
+</body>
+</html>

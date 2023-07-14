@@ -1,0 +1,78 @@
+
+#CSS Properties:{
+    Color {content color manipulation}
+    :[color]
+
+    Background {content background manipulation}
+    :[background-color, ( color pallete box )
+      background-position, (not a drop down , user will enter a value manually)
+      background-size          ( ,, )]
+
+    Font {content font manipulation}
+    :[font-family, (drop down)
+      font-style, (bold, italic, underlined)
+      font-weight,(manually)
+      font-size,(m)]
+
+    Text {content text manipulation}
+    :[text-align, (start , end , left , right , center)
+      text-transform, (capitalize , lowercase , uppercase , none)
+      letter-spacing, (manually)
+      word-spacing, (manually)
+      line-height (manually)]
+
+
+    Dimension {content dimension manipulation}
+    :[width,
+      min-width,
+      max-width,
+      height,
+      min-height,
+      max-height]
+
+    Padding {content padding manipulation}
+    :[padding]
+
+    Border {content border manipulation}
+    :[border-style,
+      border-color,
+      border-width
+      border-radius]
+
+    Margin {content margin manipulation}
+    :[margin]
+
+    Cursor {content cursor manipulation}
+    :[cursor]
+
+    Overflow {content overflow manipulation}
+    :[overflow]
+
+    Display {content display manipulation}
+    :[display]
+
+    Visibility {content visibility manipulation}
+    :[visibility]
+
+    Position {content position manipulation}
+    :[position,
+      top,
+      bottom,
+      left,
+      right,
+      traslate]
+
+    Layer {content layer manipulation}
+    :[z-index]
+
+    Float {content float manipulation}
+    :[float,
+      clear]
+
+    Opacity {content opacity manipulation}
+    :[opacity]
+
+    Shadow {content shadow manipulation}
+    :[box-shadow,
+      text-shadow]
+}

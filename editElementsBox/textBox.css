@@ -1,0 +1,373 @@
+*{
+    margin: 0rem;
+    /* background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important; */
+}
+
+html{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.textBox  form {
+    background: #fff;
+    width: 200px;
+    padding: 2em 4em 2em;
+    margin: 90px auto 0;
+    box-shadow: 0 0 1em #222;
+    border-radius: 2px;
+    h2 {
+      margin:0 0 25px 0;
+      padding:10px;
+      text-align:center;
+      font-size:30px;
+      border-bottom:solid 1px #e5e5e5;
+    }
+    p {
+      margin: 0 0 3em 0;
+      position: relative;
+    }
+  
+    label{
+      position: absolute;
+      left: 8px;
+      top: 12px;
+      color: #999;
+      font-size: 16px;
+      display: inline-block;
+      padding: 4px 10px;
+      font-weight: 400;
+      background-color: rgba(255,255,255,0);
+      }
+    
+  }
+
+  .textBox #color-Picker-txt{
+    width: 25px;
+    height: 25px;
+    border: none;
+}
+
+.textBox #result-txt{
+  font-size: 16px;
+  border: 1px solid black;
+  padding: 3px;
+}
+  
+
+  .textBox #font-style{
+    width: 100%;
+  }
+
+
+  .textBox select{
+    padding: 4px;
+  }
+
+  .fontBox form {
+    background: #fff;
+    width: 200px;
+    padding: 2em 4em 2em;
+    margin: 90px auto 0;
+    box-shadow: 0 0 1em #222;
+    border-radius: 2px;
+    h2 {
+      margin:0 0 25px 0;
+      padding:10px;
+      text-align:center;
+      font-size:30px;
+      border-bottom:solid 1px #e5e5e5;
+    }
+    p {
+      margin: 0 0 3em 0;
+      position: relative;
+    }
+  
+    label{
+      position: absolute;
+      left: 8px;
+      top: 12px;
+      color: #999;
+      font-size: 16px;
+      display: inline-block;
+      padding: 4px 10px;
+      font-weight: 400;
+      background-color: rgba(255,255,255,0);
+      }
+    
+  }
+  
+  .fontBox #color-Picker-fnt{
+      width: 25px;
+      height: 25px;
+      border: none;
+  }
+  
+  .fontBox #result-fnt{
+    font-size: 16px;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+  .fontBox #font-style{
+    width: 100%;
+  }
+
+
+  .fontBox select{
+    padding: 4px;
+  }
+
+
+  .bgBox form {
+    background: #fff;
+    padding: 2em 4em 2em;
+    width: 200px;
+    margin: 90px auto 0;
+    box-shadow: 0 0 1em #222;
+    border-radius: 2px;
+    h2 {
+      margin:0 0 25px 0;
+      padding:10px;
+      text-align:center;
+      font-size:30px;
+      border-bottom:solid 1px #e5e5e5;
+    }
+    p {
+      margin: 0 0 3em 0;
+      position: relative;
+    }
+  
+    label{
+      position: absolute;
+      left: 8px;
+      top: 12px;
+      color: #999;
+      font-size: 16px;
+      display: inline-block;
+      padding: 4px 10px;
+      font-weight: 400;
+      background-color: rgba(255,255,255,0);
+      }
+    
+  }
+  
+  .bgBox #color-Picker{
+      width: 25px;
+      height: 25px;
+      border: none;
+  }
+  
+  .bgBox #result{
+      font-size: 16px;
+      border: 1px solid black;
+      padding: 3px;
+  }
+
+
+
+  .DimensionBox  form {
+    background: #fff;
+    width: 200px;
+    padding: 2em 4em 2em;
+    margin: 90px auto 0;
+    box-shadow: 0 0 1em #222;
+    border-radius: 2px;
+    h2 {
+      margin:0 0 25px 0;
+      padding:10px;
+      text-align:center;
+      font-size:30px;
+      border-bottom:solid 1px #e5e5e5;
+    }
+    p {
+      margin: 0 0 3em 0;
+      position: relative;
+    }
+  
+    label{
+      position: absolute;
+      left: 8px;
+      top: 12px;
+      color: #999;
+      font-size: 16px;
+      display: inline-block;
+      padding: 4px 10px;
+      font-weight: 400;
+      background-color: rgba(255,255,255,0);
+      }
+    
+  }
+  
+  .DimensionBox #font-style{
+    width: 100%;
+  }
+
+
+  .DimensionBox select{
+    padding: 4px;
+  }
+  
+
+  .BorderBox form {
+    background: #fff;
+    width: 200px;
+    padding: 2em 4em 2em;
+    margin: 90px auto 0;
+    box-shadow: 0 0 1em #222;
+    border-radius: 2px;
+    h2 {
+      margin:0 0 25px 0;
+      padding:10px;
+      text-align:center;
+      font-size:30px;
+      border-bottom:solid 1px #e5e5e5;
+    }
+    p {
+      margin: 0 0 3em 0;
+      position: relative;
+    }
+  
+    label{
+      position: absolute;
+      left: 8px;
+      top: 12px;
+      color: #999;
+      font-size: 16px;
+      display: inline-block;
+      padding: 4px 10px;
+      font-weight: 400;
+      background-color: rgba(255,255,255,0);
+      }
+    
+  }
+  
+  .BorderBox #color-Picker-border{
+      width: 25px;
+      height: 25px;
+      border: none;
+  }
+  
+  .BorderBox #result-border{
+    font-size: 16px;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+  .BorderBox #font-style{
+    width: 100%;
+  }
+
+
+  .BorderBox select{
+    padding: 4px;
+  }
+
+
+
+  .PaddingMargin  form {
+    background: #fff;
+    width: 200px;
+    padding: 2em 4em 2em;
+    margin: 90px auto 0;
+    box-shadow: 0 0 1em #222;
+    border-radius: 2px;
+    h2 {
+      margin:0 0 25px 0;
+      padding:10px;
+      text-align:center;
+      font-size:30px;
+      border-bottom:solid 1px #e5e5e5;
+    }
+    p {
+      margin: 0 0 3em 0;
+      position: relative;
+    }
+  
+    label{
+      position: absolute;
+      left: 8px;
+      top: 12px;
+      color: #999;
+      font-size: 16px;
+      display: inline-block;
+      padding: 4px 10px;
+      font-weight: 400;
+      background-color: rgba(255,255,255,0);
+      }
+    
+  }
+  
+  .PaddingMargin #font-style{
+    width: 100%;
+  }
+
+
+  .PaddingMargin select{
+    padding: 4px;
+  }
+  
+
+  
+
+  .miscellaneous  form {
+    background: #fff;
+    width: 200px;
+    padding: 2em 4em 2em;
+    margin: 90px auto 0;
+    box-shadow: 0 0 1em #222;
+    border-radius: 2px;
+    h2 {
+      margin:0 0 25px 0;
+      padding:10px;
+      text-align:center;
+      font-size:30px;
+      border-bottom:solid 1px #e5e5e5;
+    }
+    p {
+      margin: 0 0 3em 0;
+      position: relative;
+    }
+  
+    label{
+      position: absolute;
+      left: 8px;
+      top: 12px;
+      color: #999;
+      font-size: 16px;
+      display: inline-block;
+      padding: 4px 10px;
+      font-weight: 400;
+      background-color: rgba(255,255,255,0);
+      }
+    
+  }
+  
+  .miscellaneous #font-style{
+    width: 100%;
+  }
+
+
+  .miscellaneous select{
+    padding: 4px;
+  }
+  
+input , select , label , button{
+  margin: 3px;
+}
+
+button{
+  background: violet;
+}
+
+button:hover{
+  background: rgb(226, 183, 226);
+  cursor: pointer;
+}

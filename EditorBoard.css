@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+   background: whitesmoke;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+}
+
+.left{
+    margin-top: 30px;
+    width: 30%;
+    padding: 10px 0px;
+    display: flex;
+    /* transform : translate(-50%, -50%); */
+}
+
+
+.right{
+    width: 70%;
+    padding: 10px 5px;
+}
+
+textarea{
+    width: 100%;
+    height: 93%;
+    background: rgb(251, 238, 250);
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid rgb(251, 238, 250);
+    font-size: 18px;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+    border: 1px solid#F14C68;
+    box-shadow: 1px 1px 5px #ef8496;
+    background: rgb(255, 255, 255);
+}
+
+label i{
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#runButton{
+    background-color: #FBEEFA;
+    color: #F14C68;
+    margin-left: 20px;
+    border: 2px solid #eed0d0;
+    border-radius: 20px;
+}
+
+#runIcon{
+    margin-left: 10px;
+}
+
+label, .content-text label{
+    display: flex;
+    width: 100%;
+    padding: 3px;
+    padding-left: 10px;
+    color: white;
+    height: 7%;
+    background: rgb(241, 76, 104);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.tabs{
+    width: 20%;
+    background: #F14C68;
+}
+
+.content-box{
+    width: 80%;
+    height: 100%;
+    background: rgb(227, 216, 217);
+}
+
+.tabs button{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 18px 0px;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+#tab1{
+    color: #F14C68;
+    background-color: #FBEEFA;
+}
+
+
+#content1,
+#content2,
+#content3{
+    height: 100%;
+    justify-content: start;
+    align-items: start;
+}
+#content1{
+    display:block;
+ }
+
+ #content2{
+    display:none;
+ }
+
+ #content3{
+    display:none;
+ }
+
+.content-text{
+    width: 100%;
+    height: 100%;
+}
